@@ -16,6 +16,12 @@ if __name__ == '__main__':
 
     ser.write(b"sEarsUp\n")
     os.system("mpg123 ~/Documents/voicefiles/1-amcompbot.mp3")
+    ser.write(b"sHeadLeft\n")
     os.system("mpg123 ~/Documents/voicefiles/2-design-fennec.mp3")
+    ser.write(b"sHeadCenter\n")
     os.system("mpg123 ~/Documents/voicefiles/3-wiseowl.mp3")
     os.system("mpg123 ~/Documents/voicefiles/4-upgrades.mp3")
+    ser.write(b"sHeadRight\n")
+    ser.write(b"sEarsDown\n")
+    time.sleep(0.5)
+    ser.write(b"sEarsUp\n")
