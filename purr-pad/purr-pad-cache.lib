@@ -1,0 +1,49 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SparkFun-Electromechanical_MOTOR10MM
+#
+DEF SparkFun-Electromechanical_MOTOR10MM M 0 40 N N 1 L N
+F0 "M" 100 100 45 H V L BNN
+F1 "SparkFun-Electromechanical_MOTOR10MM" 100 -150 45 H V L BNN
+F2 "VIBE-MOTOR-10MM" 0 250 20 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "COMP-08572" 0 300 60 H V C CNN
+$FPLIST
+ *VIBE-MOTOR-10MM*
+$ENDFPLIST
+DRAW
+C 0 0 80 1 1 0 N
+P 2 1 0 0 -50 -150 -50 -70 N
+P 2 1 0 0 -50 150 -50 70 N
+P 2 1 0 0 -50 150 0 150 N
+P 2 1 0 0 0 -200 0 -150 N
+P 2 1 0 0 0 -150 -50 -150 N
+P 2 1 0 0 0 140 0 120 N
+P 2 1 0 0 0 150 50 150 N
+P 2 1 0 0 0 200 0 150 N
+P 2 1 0 0 10 -130 -10 -130 N
+P 2 1 0 0 10 130 -10 130 N
+P 2 1 0 0 50 -150 0 -150 N
+P 2 1 0 0 50 -150 50 -70 N
+P 2 1 0 0 50 150 50 70 N
+X + + 0 200 0 D 40 40 1 1 B
+X - - 0 -200 0 D 40 40 1 1 B
+ENDDRAW
+ENDDEF
+#
+# alexglow-symbols_powerJump
+#
+DEF alexglow-symbols_powerJump J 0 40 Y Y 1 F N
+F0 "J" 0 -300 50 H V C CNN
+F1 "alexglow-symbols_powerJump" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 5 0 1 0 -100 50 -100 -150 -300 -150 -300 50 -100 50 N
+X +5V 1 0 0 100 L 50 50 1 1 w
+X GND 2 0 -100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library
